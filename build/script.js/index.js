@@ -1,6 +1,6 @@
-const btn = document.querySelector('button.mobile-menue-button');
-const menue = document.querySelector('.mobile-menue')
+const btn = document.querySelector('.mobile-menue-button');
+const sidebar = document.querySelector('.sidebar')
 //add events
 btn.addEventListener('click',()=>{
-    menue.classList.toggle("hidden")
+   sidebar.classList.toggle("-translate-x-full")
 });
